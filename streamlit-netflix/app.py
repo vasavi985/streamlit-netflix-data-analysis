@@ -8,7 +8,7 @@ st.set_page_config(page_title="Netflix Dashboard", layout="wide")
 st.title("📺 Netflix Analytics Dashboard")
 
 # ---------- LOAD DATA ----------
-df = pd.read_csv("netflix_titles.csv")
+df = pd.read_csv("streamlit-netflix/netflix_titles.csv")
 
 # ---------- SIDEBAR ----------
 st.sidebar.header("Filters")
